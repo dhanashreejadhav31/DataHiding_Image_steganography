@@ -64,23 +64,8 @@ python steganography_app.py
 
 ---
 
-## **☁️ Deployment on Streamlit Cloud**
-1. **Push your project to GitHub** (if not already):
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/your-username/your-repo.git
-   git push -u origin main
-   ```
-2. **Go to Streamlit Cloud** → Add a new app.
-3. **Select Repository** → Choose your GitHub repo.
-4. **Branch** → Select `main`.
-5. **Main File Path** → Enter `steganography_app.py`.
-6. Click **Deploy** and wait for it to go live!
 
----
+
 
 ## **🛠 Troubleshooting & Common Issues**
 - **ModuleNotFoundError: No module named 'cv2'** → Ensure OpenCV is installed by running:
@@ -92,9 +77,5 @@ python steganography_app.py
 
 ---
 
-## **📜 License**
-This project is licensed under the **MIT License** – feel free to modify and distribute it.
-
----
 
 
